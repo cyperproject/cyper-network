@@ -45,7 +45,6 @@ export default function Datacollage() {
 
   return (
     <div style={{ height: 600, width: '90%', textAlign: "center", border: "2px solid #4e73df" }}>
-      <h1 style={{textTransform: "capitalize"}}>{role}</h1>
       <DataGrid rows={rows} columns={columns} pageSize={5} />
     </div>
   );
