@@ -1,0 +1,106 @@
+.contactForm {
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    width:40%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:100%;
+}
+
+
+.h2 {
+    color: #4e73df;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* .formGroup {
+    display:flex;
+} */
+
+.formtext{
+    width: 470px;
+    height: 120px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.formControl {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.formControl:focus{
+outline: none;
+}
+
+.label {
+    color: #4e73df;
+    width: 40%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: #4e73df;
+    color: #000;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition:0.5s;
+}
+.btn:hover{
+    color: #fff;
+}
+
+.login{
+    color: wheat;
+    width:fit-content;
+    margin-right:10px;
+}
+.signSpan{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #dd6d5c;
+    transition:0.5s;
+}
+.signSpan:hover{
+    font-size: 18px;
+    color: #4e73df;
+}
+.error{
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    position: fixed;
+    top: 58px;
+    right: 50%;
+}

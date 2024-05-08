@@ -1,0 +1,80 @@
+/* loginStyles.css */
+  
+  .body {
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .form input {
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--second-color);
+  }
+  .form input:focus{
+    outline:none;
+  }
+  .form button {
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: #4e73df;
+    color: #000;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition:0.5s;
+  }
+
+  .form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .text-danger {
+    color: #4e73df;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  h2{
+    font-size: 35px;
+    color: #4e73df;
+    text-shadow: 3px 3px 3px black;
+    margin-bottom: 20px;
+  }
+  .forget{
+    width:fit-content;
+    margin-right:10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    transition:0.5s;
+    position: absolute;
+    right:0;
+  }
+.forget:hover{
+  color:#4e73df;
+}

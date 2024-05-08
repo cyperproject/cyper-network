@@ -1,0 +1,29 @@
+.enter-code-container {
+    margin: 20px;
+}
+
+.enter-code-container h2 {
+    margin-bottom: 10px;
+}
+
+.enter-code-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.enter-code-container label {
+    margin-bottom: 5px;
+}
+
+.enter-code-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.enter-code-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
