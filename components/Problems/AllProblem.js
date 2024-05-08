@@ -4,7 +4,7 @@ import { DataGrid } from '@mui/x-data-grid';
 import './Datacollage.css'; 
 import api from "@/components/API/api";
 
-export default function AllProblem({ role }) {
+export default function AllProblem() {
   const [rows, setRows] = useState([]);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ export default function AllProblem({ role }) {
     };
 
     fetchData();
-  }, [role]);
+  }, []);
 
   const columns = [
     { field: 'Id', headerName: 'ID',type: 'number', width: 150 },
