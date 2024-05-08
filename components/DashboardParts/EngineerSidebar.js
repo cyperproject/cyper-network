@@ -43,7 +43,7 @@ const Sidebar = () => {
                 </div>
                 <div className="bottom-content">
                     <li className="redhover">
-                        <a href="#">
+                        <a href="/">
                             <i className="icon"><BiLogOut /></i>
                             <span className="text nav-text">Logout</span>
                         </a>
